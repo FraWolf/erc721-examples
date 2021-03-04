@@ -1,0 +1,37 @@
+{
+  "name": "erc721-examples",
+  "version": "1.0.0",
+  "description": "Some tests with OpenZeppelin Library to create an ERC721 Token",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "truffle:compile": "truffle compile",
+    "truffle:migrate": "truffle migrate",
+    "truffle:console": "truffle console",
+    "truffle:test": "truffle test",
+    "cli": "node node_modules/ganache-cli/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FraWolf/erc721-examples.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Blockchain",
+    "Cryptocurrency",
+    "SmartContract",
+    "Solidity"
+  ],
+  "author": "FraWolf <frawolf@outlook.it> (https://frawolf.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FraWolf/erc721-examples/issues"
+  },
+  "homepage": "https://github.com/FraWolf/erc721-examples#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "ganache-cli": "^6.12.2"
+  }
+}
